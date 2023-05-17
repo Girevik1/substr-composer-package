@@ -13,6 +13,6 @@ $ composer require Girevik1/substr-composer-package
 ## Использование
 ```php
 <?php
-$processor = new StringProcessor();
-echo $processor->getFormatText('my string - it`s simple example', 20, '...'); // My string - it`s sim...
+$perfectText = new PerfectText();
+echo $perfectText->getFormatText('my string - it`s simple example', 20, '...'); // My string - it`s sim...
 ```
